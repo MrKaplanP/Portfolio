@@ -129,6 +129,25 @@ let info = {
   ],
   portfolio: [
     {
+      name: "Medical Laboratory Sciences",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/mls/logo.png")
+        },
+        {
+          img: require("./src/assets/portfolio/mls/one.png")
+        },
+        {
+          img: require("./src/assets/portfolio/mls/two.png")
+        },
+      ],
+      technologies: ["Wordpress", "Youtube API"],
+      category: "Website",
+      visit: "https://mls.teithe.gr",
+      description:
+        "MLS is a website for the Biomedical Sciences Department of International Hellenic University"
+    },
+    {
       name: "Tremkatzis",
       pictures: [
         {
@@ -146,25 +165,6 @@ let info = {
       visit: "https://tremkatzis.gr",
       description:
         "Tremkatzis is a basic Wordpress -eshop based on woocommerce."
-    },
-    {
-      name: "Arachne Apparel",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/arachne/logo.png")
-        },
-        {
-          img: require("./src/assets/portfolio/arachne/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/arachne/two.png")
-        },
-      ],
-      technologies: ["Wordpress", "WooCommerce"],
-      category: "Web Design",
-      visit: "https://arachneapparel.gr",
-      description:
-        "Arachne Apparel is an eshop based on WooCommerce Wordpress"
     },
     {
       name: "IACMI",
@@ -185,6 +185,25 @@ let info = {
       visit: "http://iacmi.bmsc.ihu.gr",
       description:
         "A Postgraduate website for the International Hellenic University. (Under Construction)"
+    },
+    {
+      name: "Arachne Apparel",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/arachne/logo.png")
+        },
+        {
+          img: require("./src/assets/portfolio/arachne/one.png")
+        },
+        {
+          img: require("./src/assets/portfolio/arachne/two.png")
+        },
+      ],
+      technologies: ["Wordpress", "WooCommerce"],
+      category: "Web Design",
+      visit: "https://arachneapparel.gr",
+      description:
+        "Arachne Apparel is an eshop based on WooCommerce Wordpress"
     },
     {
       name: "Bioanalisi",
@@ -255,25 +274,6 @@ let info = {
       visit: "https://jdiradio.com",
       description:
         'JDIRadio is a website for music news and web app for online radio. There is also available an Android App'
-    },
-    {
-      name: "Medical Laboratory Sciences",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/mls/logo.png")
-        },
-        {
-          img: require("./src/assets/portfolio/mls/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/mls/two.png")
-        },
-      ],
-      technologies: ["Wordpress", "Youtube API"],
-      category: "Website",
-      visit: "https://mls.teithe.gr",
-      description:
-        "MLS is a website for the Biomedical Sciences Department of International Hellenic University"
     },
     {
       name: "Pare Oti Thes",
